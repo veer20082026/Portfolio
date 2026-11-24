@@ -9,7 +9,7 @@ export interface Project {
   githubUrl?: string;
   liveUrl?: string;
   featured: boolean;
-  category: 'tool' | 'developer-tools' | 'web' | 'ai' | 'finance';
+  category: 'tool' | 'developer-tools' | 'web' | 'ai' | 'ml';
   highlights: string[];
   iconName?: string;
   architectureNotes?: string;

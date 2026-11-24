@@ -14,7 +14,7 @@ export const Projects: React.FC = () => {
     { id: 'all', label: 'All Projects' },
     { id: 'tool', label: 'Terminal & CLI' },
     { id: 'developer-tools', label: 'Developer Tools' },
-    { id: 'finance', label: 'Web Applications' }
+    { id: 'ml', label: 'Machine Learning' }
   ];
 
   const filteredProjects = selectedCategory === 'all'
@@ -147,11 +147,11 @@ export const Projects: React.FC = () => {
                       </div>
                     )}
 
-                    {project.id === 'finance-management-app' && (
+                    {project.id === 'ml-capsule' && (
                       <div className="space-y-1 text-slate-300">
-                        <p className="text-amber-400">📊 Monthly Overview: ₹ 14,200 spent</p>
-                        <p className="text-slate-400">📈 Categories: Food (32%), Books (24%), Tech (44%)</p>
-                        <p className="text-emerald-400">[Secure] Stored in local encrypted storage</p>
+                        <p className="text-amber-400">🧠 ML-CaPsule: python -m ml_capsule</p>
+                        <p className="text-slate-400">📊 Modules: Supervised, Neural Nets & EDA</p>
+                        <p className="text-emerald-400">[Ready] Open curriculum for practical ML learning</p>
                       </div>
                     )}
                   </div>

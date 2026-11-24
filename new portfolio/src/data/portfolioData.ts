@@ -82,23 +82,23 @@ export const portfolioConfig: PortfolioConfig = {
       architectureNotes: "Static code analyzer and step runner for developer onboarding verification."
     },
     {
-      id: "finance-management-app",
-      title: "Finance Management Application",
-      tagline: "Personal finance tracker focused on spending analytics and budget clarity.",
-      description: "A planned project focused on helping people manage expenses and understand their spending.",
-      longDescription: "Personal finance can quickly feel overwhelming with messy spreadsheets. This application is architected from the ground up to provide clear categorization, monthly recurring expenditure forecasting, and clean visual spending summaries with privacy-first local storage.",
-      technologies: ["React", "TypeScript", "Tailwind CSS", "Chart.js / Recharts", "Local SQLite / IndexedDB"],
-      status: "Planned",
-      githubUrl: "https://github.com/veer20082026",
+      id: "ml-capsule",
+      title: "ML-CaPsule",
+      tagline: "Hands-on machine learning repository and practical curriculum for aspiring data practitioners.",
+      description: "An open learning project for data science enthusiasts to master Machine Learning, Deep Learning, and real-world applied projects.",
+      longDescription: "Created to help developers and students who don't have access to dedicated mentorship learn Machine Learning from scratch. It gathers structured implementations, dataset analyses, core algorithms, and hands-on case studies to help peers become project- and interview-ready.",
+      technologies: ["Python", "Machine Learning", "Data Science", "Deep Learning", "Jupyter"],
+      status: "Active",
+      githubUrl: "https://github.com/veer20082026/ML-CaPsule",
       liveUrl: undefined,
       featured: true,
-      category: "finance",
+      category: "ml",
       highlights: [
-        "Interactive dashboard for expense categorization and trend visualization",
-        "Budget threshold triggers and recurring subscription detector",
-        "Local-first architecture ensuring private financial data never leaks"
+        "Curated modules covering core supervised and unsupervised algorithms",
+        "Hands-on real-world datasets for exploratory data analysis",
+        "Clear documentation designed specifically for self-paced peer learners"
       ],
-      architectureNotes: "Client-side encrypted database with reactive visual dashboards."
+      architectureNotes: "Structured curriculum repository with modular Python notebooks and implementations."
     }
   ],
 
@@ -202,9 +202,9 @@ export const portfolioConfig: PortfolioConfig = {
       period: "Next Semester & Beyond",
       title: "Upcoming Horizons & Product Milestones",
       subtitle: "Building Systems That Others Use",
-      description: "Ship the MVP of the Finance Management Application, release the Natural Language to Terminal CLI as an installable package, contribute to active open-source projects, and deepen knowledge of systems programming.",
+      description: "Ship the Natural Language to Terminal CLI as an installable open-source tool, expand ML-CaPsule with new real-world notebooks, contribute to active open-source projects, and deepen knowledge of low-level systems programming.",
       category: "future",
-      tags: ["Full-Stack Finance App", "Open Source", "Package Release"],
+      tags: ["Open Source", "CLI Tool Release", "Machine Learning", "Systems Engineering"],
       keyTakeaway: "Moving from learning learner to a builder who creates value for the developer community."
     }
   ],

@@ -15,7 +15,7 @@ A modern, high-performance developer portfolio built with **React**, **TypeScrip
 - **Flagship Projects Showcase**:
   - **Natural Language to Terminal** (`nlt`): Conversational English to safe shell commands with safety checks.
   - **RunMyREADME / DocVerify**: Developer tool validating README steps, extracting shell blocks & catching documentation decay.
-  - **Finance Management Application**: Local-first encrypted personal finance tracker with interactive analytics.
+  - **ML-CaPsule**: Open hands-on repository and curriculum for data science and machine learning enthusiasts.
   - Interactive System Architecture modal ("Specs") and terminal code previews.
 - **Real-Time GitHub REST API Integration**:
   - Automatically fetches live public repositories, programming languages, star counts, fork counts, and recent commits from [@veer20082026](https://github.com/veer20082026).
