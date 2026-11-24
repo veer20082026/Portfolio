@@ -67,7 +67,6 @@ export const GitHubShowcase: React.FC = () => {
     switch (lang?.toLowerCase()) {
       case 'python': return 'bg-amber-400';
       case 'c': return 'bg-blue-500';
-      case 'c++': return 'bg-pink-500';
       case 'javascript': return 'bg-yellow-400';
       case 'typescript': return 'bg-sky-400';
       case 'html': return 'bg-orange-500';
