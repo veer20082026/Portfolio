@@ -1,0 +1,10 @@
+# OS metadata
+.DS_Store
+
+# Untracked project directories
+SNAI PROJECT ASSESMENT/
+SNAI project (GROQ/
+llm playground/
+minigit.py/
+node_modules/
+dist/
