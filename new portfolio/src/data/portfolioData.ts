@@ -38,7 +38,7 @@ export const portfolioConfig: PortfolioConfig = {
     email: "veer230022@gmail.com",
     githubUsername: "veer20082026",
     githubUrl: "https://github.com/veer20082026",
-    linkedinUrl: "https://www.linkedin.com/in/veer20082026", // Configurable: Update with your exact LinkedIn vanity handle
+    linkedinUrl: "https://www.linkedin.com/in/veer-pratap-singh-9a339841a",
     statusBadge: "Open to Collaborations & Open Source",
   },
 
