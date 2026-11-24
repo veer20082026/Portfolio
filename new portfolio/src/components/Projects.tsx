@@ -12,8 +12,9 @@ export const Projects: React.FC = () => {
 
   const categories = [
     { id: 'all', label: 'All Projects' },
-    { id: 'ai', label: 'AI & LLMs' },
     { id: 'tool', label: 'Terminal & CLI' },
+    { id: 'web', label: 'Web & Frontend' },
+    { id: 'ai', label: 'AI & LLMs' },
     { id: 'developer-tools', label: 'Developer Tools' },
     { id: 'ml', label: 'Machine Learning' }
   ];
@@ -88,7 +89,7 @@ export const Projects: React.FC = () => {
         </div>
 
         {/* Project Cards Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-7">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7">
           {filteredProjects.map((project, idx) => {
             const statusConfig = getStatusBadge(project.status);
 
@@ -131,6 +132,22 @@ export const Projects: React.FC = () => {
                       </span>
                       <span>preview</span>
                     </div>
+
+                    {project.id === 'minigit' && (
+                      <div className="space-y-1 text-slate-300">
+                        <p className="text-slate-400">$ python minigit.py commit -m "feat: initial commit"</p>
+                        <p className="text-emerald-400">⚡ Created commit: 4f8b2d1 (SHA-1 blob & tree hashed)</p>
+                        <p className="text-cyan-400">[OK] Object written to .git/objects/4f/8b2d1...</p>
+                      </div>
+                    )}
+
+                    {project.id === 'minigoogle' && (
+                      <div className="space-y-1 text-slate-300">
+                        <p className="text-cyan-400">🔍 Search: "Newton School of Technology"</p>
+                        <p className="text-slate-400">⚡ Instant layout: Accessible input & clean search UI</p>
+                        <p className="text-emerald-400">[UI] Semantic HTML5 & Responsive Modern CSS</p>
+                      </div>
+                    )}
 
                     {project.id === 'groq-llm-playground' && (
                       <div className="space-y-1 text-slate-300">

@@ -44,6 +44,44 @@ export const portfolioConfig: PortfolioConfig = {
 
   featuredProjects: [
     {
+      id: "minigit",
+      title: "minigit",
+      tagline: "Custom implementation of Git version control internals built from scratch in Python.",
+      description: "A lightweight version control system exploring content-addressable storage, SHA-1 object hashing, blob creation, tree structures, and commit history snapshots.",
+      longDescription: "Built from first principles to truly understand how Git works under the hood. minigit implements the core Git object store (.git/objects) using SHA-1 cryptographic hashing, stores blobs and trees, writes commit objects, and maintains branch references.",
+      technologies: ["Python", "Git Internals", "SHA-1 Hashing", "CLI", "File Systems"],
+      status: "Completed",
+      githubUrl: "https://github.com/veer20082026/minigit",
+      liveUrl: undefined,
+      featured: true,
+      category: "tool",
+      highlights: [
+        "Cryptographic content-addressable object store (.git/objects)",
+        "Blob hashing, tree object serialization, and commit graphs",
+        "Functional commands: init, hash-object, cat-file, write-tree, commit"
+      ],
+      architectureNotes: "Pure Python implementation of Git object model and ref storage."
+    },
+    {
+      id: "minigoogle",
+      title: "minigoogle",
+      tagline: "Search engine landing page clone and responsive frontend interface.",
+      description: "A frontend search interface exploring clean ergonomics, instant layout responsiveness, and modern UI design inspired by Google Search.",
+      longDescription: "A frontend project focusing on pixel-perfect replication of Google's minimalist search interface. Explores semantic markup, accessible search bar inputs, responsive flexbox/grid layout techniques, and clean aesthetic simplicity.",
+      technologies: ["HTML5", "CSS3", "JavaScript", "Responsive Design", "UI/UX"],
+      status: "Completed",
+      githubUrl: "https://github.com/veer20082026/minigoogle",
+      liveUrl: undefined,
+      featured: true,
+      category: "web",
+      highlights: [
+        "Pixel-accurate search interface layout and input ergonomics",
+        "Fully responsive across mobile, tablet, and desktop viewports",
+        "Clean semantic HTML5 structure with modern CSS styling"
+      ],
+      architectureNotes: "Pure client-side responsive layout with clean CSS architecture."
+    },
+    {
       id: "groq-llm-playground",
       title: "GROQ LLM Playground",
       tagline: "Ultra-fast LLM inference experiments, prompt testing, and API integration harness.",
@@ -63,6 +101,25 @@ export const portfolioConfig: PortfolioConfig = {
       architectureNotes: "Python-based async inference runner with configurable system parameters."
     },
     {
+      id: "ml-capsule",
+      title: "ML-CaPsule",
+      tagline: "Hands-on machine learning repository and practical curriculum for aspiring data practitioners.",
+      description: "An open learning project for data science enthusiasts to master Machine Learning, Deep Learning, and real-world applied projects.",
+      longDescription: "Created to help developers and students who don't have access to dedicated mentorship learn Machine Learning from scratch. It gathers structured implementations, dataset analyses, core algorithms, and hands-on case studies to help peers become project- and interview-ready.",
+      technologies: ["Python", "Machine Learning", "Data Science", "Deep Learning", "Jupyter"],
+      status: "Active",
+      githubUrl: "https://github.com/veer20082026/ML-CaPsule",
+      liveUrl: undefined,
+      featured: true,
+      category: "ml",
+      highlights: [
+        "Curated modules covering core supervised and unsupervised algorithms",
+        "Hands-on real-world datasets for exploratory data analysis",
+        "Clear documentation designed specifically for self-paced peer learners"
+      ],
+      architectureNotes: "Structured curriculum repository with modular Python notebooks and implementations."
+    },
+    {
       id: "nl-to-terminal",
       title: "Natural Language to Terminal",
       tagline: "Translating conversational plain English into safe, executable shell commands.",
@@ -71,7 +128,7 @@ export const portfolioConfig: PortfolioConfig = {
       technologies: ["Python", "Shell / Bash", "Groq / LLM APIs", "CLI Engine"],
       status: "In Development",
       githubUrl: "https://github.com/veer20082026/groq-llm-playground",
-      liveUrl: undefined, // Available when deployed
+      liveUrl: undefined,
       featured: true,
       category: "tool",
       highlights: [
@@ -99,25 +156,6 @@ export const portfolioConfig: PortfolioConfig = {
         "Generates clean pass/fail reports with suggested documentation fixes"
       ],
       architectureNotes: "Static code analyzer and step runner for developer onboarding verification."
-    },
-    {
-      id: "ml-capsule",
-      title: "ML-CaPsule",
-      tagline: "Hands-on machine learning repository and practical curriculum for aspiring data practitioners.",
-      description: "An open learning project for data science enthusiasts to master Machine Learning, Deep Learning, and real-world applied projects.",
-      longDescription: "Created to help developers and students who don't have access to dedicated mentorship learn Machine Learning from scratch. It gathers structured implementations, dataset analyses, core algorithms, and hands-on case studies to help peers become project- and interview-ready.",
-      technologies: ["Python", "Machine Learning", "Data Science", "Deep Learning", "Jupyter"],
-      status: "Active",
-      githubUrl: "https://github.com/veer20082026/ML-CaPsule",
-      liveUrl: undefined,
-      featured: true,
-      category: "ml",
-      highlights: [
-        "Curated modules covering core supervised and unsupervised algorithms",
-        "Hands-on real-world datasets for exploratory data analysis",
-        "Clear documentation designed specifically for self-paced peer learners"
-      ],
-      architectureNotes: "Structured curriculum repository with modular Python notebooks and implementations."
     }
   ],
 
