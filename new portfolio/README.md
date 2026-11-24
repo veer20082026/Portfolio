@@ -13,6 +13,7 @@ A modern, high-performance developer portfolio built with **React**, **TypeScrip
   - Interactive commands (`whoami`, `about`, `projects`, `skills`, `contact`, `github`, `quote`, `clear`).
   - Clickable quick-action command chips for effortless mobile & desktop interaction.
 - **Flagship Projects Showcase**:
+  - **GROQ LLM Playground**: Ultra-fast LLM inference experiments, prompt testing, and API integration harness.
   - **Natural Language to Terminal** (`nlt`): Conversational English to safe shell commands with safety checks.
   - **RunMyREADME / DocVerify**: Developer tool validating README steps, extracting shell blocks & catching documentation decay.
   - **ML-CaPsule**: Open hands-on repository and curriculum for data science and machine learning enthusiasts.

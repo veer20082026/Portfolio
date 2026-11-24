@@ -12,6 +12,7 @@ export const Projects: React.FC = () => {
 
   const categories = [
     { id: 'all', label: 'All Projects' },
+    { id: 'ai', label: 'AI & LLMs' },
     { id: 'tool', label: 'Terminal & CLI' },
     { id: 'developer-tools', label: 'Developer Tools' },
     { id: 'ml', label: 'Machine Learning' }
@@ -87,7 +88,7 @@ export const Projects: React.FC = () => {
         </div>
 
         {/* Project Cards Grid */}
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-7">
           {filteredProjects.map((project, idx) => {
             const statusConfig = getStatusBadge(project.status);
 
@@ -130,6 +131,14 @@ export const Projects: React.FC = () => {
                       </span>
                       <span>preview</span>
                     </div>
+
+                    {project.id === 'groq-llm-playground' && (
+                      <div className="space-y-1 text-slate-300">
+                        <p className="text-slate-400">$ python -m playground --model llama-3-70b</p>
+                        <p className="text-emerald-400">⚡ Groq LPU: 752 tokens/sec [Ultra Low Latency]</p>
+                        <p className="text-cyan-400">[Response] Stream complete in 0.18s • 0 hallucinations</p>
+                      </div>
+                    )}
 
                     {project.id === 'nl-to-terminal' && (
                       <div className="space-y-1 text-slate-300">

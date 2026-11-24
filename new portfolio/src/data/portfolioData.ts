@@ -44,12 +44,31 @@ export const portfolioConfig: PortfolioConfig = {
 
   featuredProjects: [
     {
+      id: "groq-llm-playground",
+      title: "GROQ LLM Playground",
+      tagline: "Ultra-fast LLM inference experiments, prompt testing, and API integration harness.",
+      description: "An experimental developer harness testing low-latency token generation with the Groq API, evaluating model speeds, prompt templates, and streaming responses.",
+      longDescription: "Built to explore and benchmark the ultra-low latency inference capabilities of Groq's LPU hardware. This repository houses test scripts, custom system prompt benchmarks across models like Llama 3 and Mixtral, and utility wrappers that form the intelligence backbone for downstream developer tools.",
+      technologies: ["Python", "Groq API", "Llama 3 / Mixtral", "LLM Prompting", "JSON Schema"],
+      status: "Active",
+      githubUrl: "https://github.com/veer20082026/groq-llm-playground",
+      liveUrl: undefined,
+      featured: true,
+      category: "ai",
+      highlights: [
+        "Real-time token streaming and inference speed benchmarking",
+        "Structured output extraction and automated schema validation",
+        "Foundation for conversational terminal utilities and workflow automations"
+      ],
+      architectureNotes: "Python-based async inference runner with configurable system parameters."
+    },
+    {
       id: "nl-to-terminal",
       title: "Natural Language to Terminal",
       tagline: "Translating conversational plain English into safe, executable shell commands.",
       description: "A terminal utility that converts basic English instructions into terminal commands and executes them.",
       longDescription: "Built to streamline developer workflows and make terminal operations intuitive. Instead of memorizing obscure flags for tar, find, or ffmpeg, developers write natural intent, which gets parsed, validated with a safety check, and surfaced with an interactive confirmation before execution.",
-      technologies: ["Python", "Shell / Bash", "NLP / LLM APIs", "CLI Engine"],
+      technologies: ["Python", "Shell / Bash", "Groq / LLM APIs", "CLI Engine"],
       status: "In Development",
       githubUrl: "https://github.com/veer20082026/groq-llm-playground",
       liveUrl: undefined, // Available when deployed

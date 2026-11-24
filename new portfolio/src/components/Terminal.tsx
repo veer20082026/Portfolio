@@ -33,7 +33,7 @@ export const Terminal: React.FC = () => {
           <span className="text-slate-400">{"{"}</span><br />
           &nbsp;&nbsp;<span className="text-emerald-300">"status"</span>: <span className="text-amber-300">"Active Builder"</span>,<br />
           &nbsp;&nbsp;<span className="text-emerald-300">"location"</span>: <span className="text-amber-300">"Pune, Maharashtra"</span>,<br />
-          &nbsp;&nbsp;<span className="text-emerald-300">"current_focus"</span>: <span className="text-amber-300">"Natural Language to Terminal & DocVerify"</span>,<br />
+          &nbsp;&nbsp;<span className="text-emerald-300">"current_focus"</span>: <span className="text-amber-300">"GROQ LLM Playground & Natural Language Terminal"</span>,<br />
           &nbsp;&nbsp;<span className="text-emerald-300">"learning"</span>: <span className="text-amber-300">"Systems Programming & Full-Stack Architecture"</span><br />
           <span className="text-slate-400">{"}"}</span>
         </div>
