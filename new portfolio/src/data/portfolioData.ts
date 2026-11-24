@@ -127,7 +127,6 @@ export const portfolioConfig: PortfolioConfig = {
       description: "Foundational languages used for algorithms, tooling, and system development.",
       skills: [
         { name: "Python", level: "Proficient", description: "Scripting, CLI tools, LLM APIs, and automation" },
-        { name: "C", level: "Core", description: "Memory concepts, pointers, data structures, low-level problem solving" },
         { name: "JavaScript / TypeScript", level: "Proficient", description: "Modern ES6+, async programming, typed interfaces" },
         { name: "SQL", level: "Exploring", description: "Relational queries, database schema design" }
       ]
@@ -181,9 +180,9 @@ export const portfolioConfig: PortfolioConfig = {
       period: "July - August",
       title: "Beginning at Newton School of Technology",
       subtitle: "First Semester Foundations",
-      description: "Started B.Tech in Computer Science at NST Pune. Dove straight into computer science fundamentals, learning structured programming in C, command-line basics, and setting up Linux development environments.",
+      description: "Started B.Tech in Computer Science at NST Pune. Dove straight into computer science fundamentals, learning structured programming, command-line basics, and setting up Linux development environments.",
       category: "foundation",
-      tags: ["Newton School of Tech", "C Programming", "Linux Basics"],
+      tags: ["Newton School of Tech", "Programming Fundamentals", "Linux Basics"],
       keyTakeaway: "Building strong fundamentals from first principles is irreplaceable."
     },
     {

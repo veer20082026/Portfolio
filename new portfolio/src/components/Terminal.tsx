@@ -121,7 +121,7 @@ export const Terminal: React.FC = () => {
         outputNode = (
           <div className="space-y-1.5 text-xs">
             <p className="text-slate-400">Core technical proficiencies:</p>
-            <p><span className="text-emerald-400">Languages:</span> Python, C, JavaScript, TypeScript, SQL</p>
+            <p><span className="text-emerald-400">Languages:</span> Python, JavaScript, TypeScript, SQL</p>
             <p><span className="text-emerald-400">Web & Frontend:</span> React, Tailwind CSS, HTML5/CSS3, REST APIs</p>
             <p><span className="text-emerald-400">Developer Tooling:</span> Git, GitHub, Linux/Zsh, VS Code, Homebrew</p>
             <p><span className="text-emerald-400">Exploring:</span> LLM APIs, OS concepts, Systems Architecture</p>

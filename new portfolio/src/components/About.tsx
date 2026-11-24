@@ -26,7 +26,7 @@ export const About: React.FC = () => {
     {
       icon: <Cpu className="w-5 h-5 text-indigo-400" />,
       title: "Strong Foundations First",
-      description: "Diving deep into computer science fundamentals in my first semester at Newton School of Technology: memory management in C, algorithmic problem solving, and operating systems principles."
+      description: "Diving deep into computer science fundamentals in my first semester at Newton School of Technology: algorithmic problem solving, clean system design, and operating systems principles."
     },
     {
       icon: <Rocket className="w-5 h-5 text-amber-400" />,
