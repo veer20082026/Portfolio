@@ -32,7 +32,7 @@ A modern, high-performance developer portfolio built with **React**, **TypeScrip
   - Interactive milestone timeline highlighting Veer's journey as a first-semester CS student at Newton School of Technology, Pune.
 - **Functional Contact Section**:
   - Form validation with error reporting and animated confetti celebration upon sending.
-  - 1-click email copy button (`veer20082026@gmail.com`).
+  - 1-click email copy button (`veer230022@gmail.com`).
   - Direct links to GitHub and LinkedIn.
 
 ---

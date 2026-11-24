@@ -35,7 +35,7 @@ export const portfolioConfig: PortfolioConfig = {
     degree: "B.Tech Computer Science",
     currentSemester: "First Year, First Semester",
     location: "Pune, Maharashtra, India",
-    email: "veer20082026@gmail.com",
+    email: "veer230022@gmail.com",
     githubUsername: "veer20082026",
     githubUrl: "https://github.com/veer20082026",
     linkedinUrl: "https://www.linkedin.com/in/veer20082026", // Configurable: Update with your exact LinkedIn vanity handle
