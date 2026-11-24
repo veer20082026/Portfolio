@@ -127,7 +127,7 @@ export const portfolioConfig: PortfolioConfig = {
       description: "Foundational languages used for algorithms, tooling, and system development.",
       skills: [
         { name: "Python", level: "Proficient", description: "Scripting, CLI tools, LLM APIs, and automation" },
-        { name: "C / C++", level: "Core", description: "Memory concepts, data structures, low-level problem solving" },
+        { name: "C", level: "Core", description: "Memory concepts, pointers, data structures, low-level problem solving" },
         { name: "JavaScript / TypeScript", level: "Proficient", description: "Modern ES6+, async programming, typed interfaces" },
         { name: "SQL", level: "Exploring", description: "Relational queries, database schema design" }
       ]
